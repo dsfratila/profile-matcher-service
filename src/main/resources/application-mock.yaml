@@ -1,0 +1,4 @@
+
+services:
+  campaigns:
+    url: http://localhost:8085

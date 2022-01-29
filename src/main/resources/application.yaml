@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: profile-matcher-service
+
+services:
+  campaigns:
+    url: http://campaigns-service.com
+    activeCampaignsCacheDuration: 30s
+
+logging:
+  level:
+    root: INFO
+    com.gameloft: TRACE
